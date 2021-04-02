@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-19T15:40:04 CET" name="Default suite" finished-at="2021-03-19T15:40:28 CET" duration-ms="23978">
+    <groups>
+    </groups>
+    <test started-at="2021-03-19T15:40:04 CET" name="Default test" finished-at="2021-03-19T15:40:28 CET" duration-ms="23978">
+      <class name="TestPages.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestPages.HomePageTest@320494b6]" started-at="2021-03-19T15:40:04 CET" name="setUp" finished-at="2021-03-19T15:40:26 CET" duration-ms="21994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getUserName()[pri:1, instance:TestPages.HomePageTest@320494b6]" started-at="2021-03-19T15:40:27 CET" name="getUserName" finished-at="2021-03-19T15:40:28 CET" duration-ms="1016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserName -->
+        <test-method signature="galeryInfo()[pri:2, instance:TestPages.HomePageTest@320494b6]" started-at="2021-03-19T15:40:28 CET" name="galeryInfo" finished-at="2021-03-19T15:40:28 CET" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- galeryInfo -->
+        <test-method signature="developerNameTest()[pri:3, instance:TestPages.HomePageTest@320494b6]" started-at="2021-03-19T15:40:28 CET" name="developerNameTest" finished-at="2021-03-19T15:40:28 CET" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- developerNameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestPages.HomePageTest@320494b6]" started-at="2021-03-19T15:40:28 CET" name="tearDown" finished-at="2021-03-19T15:40:28 CET" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestPages.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
