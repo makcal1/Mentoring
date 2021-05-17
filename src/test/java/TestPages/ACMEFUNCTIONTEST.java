@@ -14,26 +14,24 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com.acme.base.BasePage;
 
-import com.acme.util.Constants;
-import com.acme.util.Credentials;
+
  //@Listeners(com.acme.listeners.ExtentReportListeners.class)
 
-public class ACMEFUNCTIONTEST extends BasePage {
+public class ACMEFUNCTIONTEST{
 // fields, driver, properties, basepageObj, LoginpageObj, 
 WebDriver driver;
-BasePage basePage;
-Properties properties;
+//BasePage basePage;
+//Properties properties;
 //LoginPage loginPage;
 
-Credentials credentials;
+//Credentials credentials;
 
 
 
 @BeforeTest
 public void setUp() {
-basePage = new BasePage();
+//basePage = new BasePage();
 //properties = basePage.initialize_properties();
 //driver = basePage.initialize_driver();
 //loginPage = new LoginPage(driver);
@@ -42,6 +40,7 @@ basePage = new BasePage();
 //		, properties.getProperty("password"));
 	
 System.out.println("The test cases are ready to be executed..");
+System.out.println("The test are starting");
 }
 @Test(description = "ESS user can Login")
 public void test_01_() {
