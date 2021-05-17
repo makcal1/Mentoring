@@ -1,33 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-19T15:40:04 CET" name="Default suite" finished-at="2021-03-19T15:40:28 CET" duration-ms="23978">
+  <suite started-at="2021-05-17T19:23:46 CEST" name="Default suite" finished-at="2021-05-17T19:23:47 CEST" duration-ms="116">
     <groups>
     </groups>
-    <test started-at="2021-03-19T15:40:04 CET" name="Default test" finished-at="2021-03-19T15:40:28 CET" duration-ms="23978">
-      <class name="TestPages.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestPages.HomePageTest@320494b6]" started-at="2021-03-19T15:40:04 CET" name="setUp" finished-at="2021-03-19T15:40:26 CET" duration-ms="21994" status="PASS">
+    <test started-at="2021-05-17T19:23:46 CEST" name="Default test" finished-at="2021-05-17T19:23:47 CEST" duration-ms="116">
+      <class name="TestPages.ACMEFUNCTIONTEST">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestPages.ACMEFUNCTIONTEST@6ef888f6]" started-at="2021-05-17T19:23:46 CEST" name="setUp" finished-at="2021-05-17T19:23:46 CEST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getUserName()[pri:1, instance:TestPages.HomePageTest@320494b6]" started-at="2021-03-19T15:40:27 CET" name="getUserName" finished-at="2021-03-19T15:40:28 CET" duration-ms="1016" status="PASS">
+        <test-method signature="test_01_()[pri:0, instance:TestPages.ACMEFUNCTIONTEST@6ef888f6]" started-at="2021-05-17T19:23:46 CEST" name="test_01_" description="ESS user can Login" finished-at="2021-05-17T19:23:46 CEST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUserName -->
-        <test-method signature="galeryInfo()[pri:2, instance:TestPages.HomePageTest@320494b6]" started-at="2021-03-19T15:40:28 CET" name="galeryInfo" finished-at="2021-03-19T15:40:28 CET" duration-ms="128" status="PASS">
+        </test-method> <!-- test_01_ -->
+        <test-method signature="test_02()[pri:1, instance:TestPages.ACMEFUNCTIONTEST@6ef888f6]" started-at="2021-05-17T19:23:46 CEST" name="test_02" description="ESS user can view account details" finished-at="2021-05-17T19:23:46 CEST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- galeryInfo -->
-        <test-method signature="developerNameTest()[pri:3, instance:TestPages.HomePageTest@320494b6]" started-at="2021-03-19T15:40:28 CET" name="developerNameTest" finished-at="2021-03-19T15:40:28 CET" duration-ms="67" status="PASS">
+        </test-method> <!-- test_02 -->
+        <test-method signature="test_03()[pri:2, instance:TestPages.ACMEFUNCTIONTEST@6ef888f6]" started-at="2021-05-17T19:23:46 CEST" name="test_03" description="ESS user can edit account details" finished-at="2021-05-17T19:23:46 CEST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- developerNameTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestPages.HomePageTest@320494b6]" started-at="2021-03-19T15:40:28 CET" name="tearDown" finished-at="2021-03-19T15:40:28 CET" duration-ms="300" status="PASS">
+        </test-method> <!-- test_03 -->
+        <test-method signature="test_04()[pri:3, instance:TestPages.ACMEFUNCTIONTEST@6ef888f6]" started-at="2021-05-17T19:23:46 CEST" name="test_04" description="ESS user can see &quot;go-back&quot; button." finished-at="2021-05-17T19:23:46 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_04 -->
+        <test-method signature="test_05()[pri:4, instance:TestPages.ACMEFUNCTIONTEST@6ef888f6]" started-at="2021-05-17T19:23:46 CEST" name="test_05" description="ESS user can view Contact Details" finished-at="2021-05-17T19:23:46 CEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_05 -->
+        <test-method signature="test_06()[pri:5, instance:TestPages.ACMEFUNCTIONTEST@6ef888f6]" started-at="2021-05-17T19:23:46 CEST" name="test_06" description="ESS user can edit contact details" finished-at="2021-05-17T19:23:46 CEST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_06 -->
+        <test-method signature="test_07()[pri:6, instance:TestPages.ACMEFUNCTIONTEST@6ef888f6]" started-at="2021-05-17T19:23:47 CEST" name="test_07" description="ESS user can see the coupon in the website" finished-at="2021-05-17T19:23:47 CEST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_07 -->
+        <test-method signature="test_08()[pri:7, instance:TestPages.ACMEFUNCTIONTEST@6ef888f6]" started-at="2021-05-17T19:23:47 CEST" name="test_08" description="ESS user can can click on the coupon " finished-at="2021-05-17T19:23:47 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_08 -->
+        <test-method signature="test_09()[pri:8, instance:TestPages.ACMEFUNCTIONTEST@6ef888f6]" started-at="2021-05-17T19:23:47 CEST" name="test_09" description="ESS user can add the coupon into the account" finished-at="2021-05-17T19:23:47 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_09 -->
+        <test-method signature="test_10()[pri:9, instance:TestPages.ACMEFUNCTIONTEST@6ef888f6]" started-at="2021-05-17T19:23:47 CEST" name="test_10" description="ESS user can see the coupon barcode" finished-at="2021-05-17T19:23:47 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_10 -->
+        <test-method signature="test_11()[pri:10, instance:TestPages.ACMEFUNCTIONTEST@6ef888f6]" started-at="2021-05-17T19:23:47 CEST" name="test_11" description="ESS user can see &quot;The e-mail notification is sent&quot;." finished-at="2021-05-17T19:23:47 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_11 -->
+        <test-method signature="test_12()[pri:11, instance:TestPages.ACMEFUNCTIONTEST@6ef888f6]" started-at="2021-05-17T19:23:47 CEST" name="test_12" description="ESS user can see the unique code in the barcode." finished-at="2021-05-17T19:23:47 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_12 -->
+        <test-method signature="test_13()[pri:12, instance:TestPages.ACMEFUNCTIONTEST@6ef888f6]" started-at="2021-05-17T19:23:47 CEST" name="test_13" description="ESS user can see the discount after entering the coupon code." finished-at="2021-05-17T19:23:47 CEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_13 -->
+        <test-method signature="test_14()[pri:13, instance:TestPages.ACMEFUNCTIONTEST@6ef888f6]" started-at="2021-05-17T19:23:47 CEST" name="test_14" description="ESS user can see &quot;The barcode number is valid&quot;." finished-at="2021-05-17T19:23:47 CEST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_14 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestPages.ACMEFUNCTIONTEST@6ef888f6]" started-at="2021-05-17T19:23:47 CEST" name="tearDown" finished-at="2021-05-17T19:23:47 CEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestPages.HomePageTest -->
+      </class> <!-- TestPages.ACMEFUNCTIONTEST -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
